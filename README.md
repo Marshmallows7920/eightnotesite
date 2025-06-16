@@ -4,7 +4,7 @@ This site was built on Jekyll.
 Bash on Ubuntu on Windows is still under development, so you may run into issues. So it is reccomended that you use WSL if on Windows.
 
 To build the site first make sure you have all the pre-requisites:
-Jekyll documentation provides up to date [OS specific install guides](https://jekyllrb.com/docs/installation){:target="_blank"}
+Jekyll documentation provides up to date [OS specific install guides](https://jekyllrb.com/docs/installation)
 
 
 - Ensure all Ruby Gem dependencies are installed
