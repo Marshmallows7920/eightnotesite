@@ -7,7 +7,7 @@ left_links:
 - name: Team
   link: "/team/"
 right_links:
-  - name:
-    link: https://www.instagram.com/
-    social_icon: Youtube
+  - name: Demo
+    link: https://youtu.be/huzAPKFdEf8
+    # social_icon: Youtube
     new_window: true
