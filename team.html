@@ -180,6 +180,37 @@ description: We've built an amazing team of developers, marketers, designers and
     {% endfor %}
 </section>
 
+    <!-- Our Journey -->
+    <!-- <section class="info-2"> -->
+    <section>
+        <div class="container flex">
+            <div class="text">
+                <h2 data-aos="fade-up" class="editable">
+                    Our Journey
+                </h2>
+                <p  data-aos="fade-up" class="editable">
+                    <h3>
+                        A postmortem of your development experience, where you discuss some of the issues that arose during the development of your process. You can (and should) include both negative and positive points; they will not count against your project mark. It is highly recommended that you include the last three items from the list above. Also ensure that you discuss the area you identified for improvement after your iteration 2 retrospective; how did it go? This should be informal, you can choose two or three of the following items to discuss, or something else you find interesting or relevant:
+                    </h3>
+                </p>
+                <p  data-aos="fade-up" class="editable">
+                    Overall, the development process went quite well especially considering we all had busy schedules, other commitments, and were all learning something brand new for this project. In terms of teamwork and communication, we performed quite well. We all attended meetings and offered input and ideas, and everyone was open to hearing feedback and constructive criticism about their work. I believe everyone tried their best to provide high-quality code, to get their tasks done on time, and to make changes to their work based on feedback from the previous iteration. 
+                </p>
+                <p  data-aos="fade-up" class="editable">
+                    Despite that, there were still some issues during the development process. Occasionally, poor planning and time management forced us to release without functionality that we planned for that iteration. We also forgot quite often to create dev tasks before starting the work, and didn’t keep an accurate account of the amount of time spent on each task. This then affected our ability to calculate the project velocity accurately, which could’ve helped us better plan our future iterations.
+                </p>
+                <p  data-aos="fade-up" class="editable">
+                    Given the chance to start over, we would be more cautious and aware of how we’re setting up our classes. Many of our classes (especially logic) ended up having issues with tight coupling and SOLID violations, which then required lots of extra time to correct. If we were to start over, we would make sure to take more time planning how our classes should function and how they should interact with other components. I also believe if we started over, our presentation layer could be better designed. Given what we know now, we could focus more on creating reusable components in order to reduce the number of classes that are doing very similar tasks.
+                </p>
+                <p  data-aos="fade-up" class="editable">
+                    There are also a few outstanding bugs that we would have liked to have fixed before the final release, but either didn’t have time to fix them, or didn’t notice them until after the final deadline. One bug occurs when a user edits a journal entry, and attempts to replace the contents with an empty string. They will get an error message stating that the contents cannot be empty, but when closing that dialog the contents still show up as empty rather than updating the entry to show the original contents again (if they click on this entry in the list of entries, the original contents will show up again). Another bug occurs when searching, if the user searches for a song that was part of one of the sample entries in our database, a lowercase version and an uppercase version will show up in the search results, which would be confusing to the user.
+                </p>
+                <p  data-aos="fade-up" class="editable">
+                    In terms of project size, we have a total of 49 classes and 17 test classes. Our presentation layer contains the highest number of classes, with 8 controller classes, 4 panel classes, and 10 view classes, for a total of 22 classes. Our logic layer contains 5 interfaces and 9 classes, and the persistence layer contains 10 classes and 3 interfaces. For hours spent, we have a total of 251 tracked hours across iterations 1 through 3, but as noted above, our hours tracked were not completely accurate.
+                </p>
+            </div>
+        </div>
+    </section>
 
 // LIGHTBOXES
 
