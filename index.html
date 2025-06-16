@@ -6,9 +6,9 @@ bottom_image: https://www.fg-a.com/backgrounds/black-planet-surface-1920.jpg
 ---
 <!-- This file allows us to customize the layout of the Home page (excluding header and footer)-->
 
-<div class="hero" style="background-image: url({{ site.baseurl }}/images/bg2.jpg)">
+<div class="hero" style="background-image: url({{ site.baseurl }}/images/bg6.jpg)">
 <!-- <div class="hero" style="background-color: white;"> -->
-    <div class="inner-hero text-container">
+    <div class="inner-hero text-container" id="vanta">
         <div class="hero-text-container">
             <!-- <img src="{{ site.baseurl }}/images/logo/logo.png"> -->
             The Music Journaling App    
@@ -19,35 +19,39 @@ bottom_image: https://www.fg-a.com/backgrounds/black-planet-surface-1920.jpg
         </div>
     </div>
     <div class="learn-more"> // using to make the cover look better (in progress)
-        <!-- <div id="particles-js"> -->
+        <div id="particles-js">
             <!-- <script src="particles.js">  -->
             // don't remove
             <!-- </script> -->
             <!-- <script src="app.js"> -->
             <!-- </script> -->
-            <!-- <script src="url({{ site.baseurl }}/js/three.r134.min.js"></script> -->
-            <!-- <script src="url({{ site.baseurl }}/js/vanta.birds.min.js"></script> -->
-            <!-- <script> -->
-                <!-- VANTA.BIRDS({ -->
-                    <!-- el: "#your-element-selector", -->
-                    <!-- mouseControls: true, -->
-                    <!-- touchControls: true, -->
-                    <!-- gyroControls: false, -->
-                    <!-- minHeight: 200.00, -->
-                    <!-- minWidth: 200.00, -->
-                    <!-- scale: 1.00, -->
-                    <!-- scaleMobile: 1.00, -->
-                    <!-- backgroundColor: 0x7f97b6, -->
-                    <!-- color1: 0xe8e8e8, -->
-                    <!-- color2: 0xff00ff, -->
-                    <!-- colorMode: "lerpGradient", -->
-                    <!-- birdSize: 1.30, -->
-                    <!-- separation: 33.00, -->
-                    <!-- alignment: 33.00, -->
-                    <!-- cohesion: 33.00, -->
-                    <!-- quantity: 2.00 -->
-                <!-- }) -->
-            <!-- </script> -->
+        </div>
+
+        <div id="3js">
+            <script src="three.min.js"></script>
+            <script src="vanta.birds.min.js"></script>
+            <script>
+                VANTA.BIRDS({
+                    el: "#vanta",
+                    mouseControls: true,
+                    touchControls: true,
+                    gyroControls: false,
+                    minHeight: 200.00,
+                    minWidth: 200.00,
+                    scale: 1.00,
+                    scaleMobile: 1.00,
+                    backgroundColor: 0x7f97b6,
+                    color1: 0xe8e8e8,
+                    color2: 0xff00ff,
+                    colorMode: "lerpGradient",
+                    birdSize: 1.30,
+                    separation: 33.00,
+                    alignment: 33.00,
+                    cohesion: 33.00,
+                    quantity: 2.00,
+                    backgroundAlpha: 0.00
+                })
+            </script>
         </div>
     </div>
 </div>
@@ -87,7 +91,6 @@ bottom_image: https://www.fg-a.com/backgrounds/black-planet-surface-1920.jpg
     </div>
     <div class="container-event">
         <div class="container-row" data-aos="fade-up">
-			
 
             <!-- Feature 1-->
             <div class="event-column">
@@ -136,13 +139,11 @@ bottom_image: https://www.fg-a.com/backgrounds/black-planet-surface-1920.jpg
                         </span>
                     </div>
                     <div class="event-info">
+                       <div class="event-date">
+                            Released in Iteration 3
+                        </div>
                         <h2 class="event-title" style="font-size: 24px;">
-                            <div class="event-date">
-                                Released in Iteration 3
-                            </div>
-                            <h2 class="event-title" style="font-size: 24px;">
-                                Your Listening Stats!
-                            </h2>
+                            Your Listening Stats!
                         </h2>
                     </div>
                 </a>
@@ -151,10 +152,9 @@ bottom_image: https://www.fg-a.com/backgrounds/black-planet-surface-1920.jpg
         </div>
 
         <div data-aos="fade-up" class="button-all-events" style="padding-bottom: 40px; align-content: center">
-            <a href="/features/" >
-                        Learn more about all features
-            </a>
+            <a href="/features/" >Learn more</a>
         </div>
+
 </section>
 
 
@@ -175,6 +175,8 @@ bottom_image: https://www.fg-a.com/backgrounds/black-planet-surface-1920.jpg
                         <li>Rudy</li>
                         <li>Isham</li>
                     </div>
+
+                    Click on the button below if you would like to learn more about our journey and what each of us learned.
                 </p>
                 <div data-aos="fade-up" class="button">
                     <a href="/team/" style="margin-bottom: 25px">
